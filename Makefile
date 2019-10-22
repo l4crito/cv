@@ -16,3 +16,6 @@ deploy:
 
 serve:
 	http-server /docs
+
+ic:
+	ngx-pwa-icons

@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1571705537696,
+  "index": "https://l4crito.github.io/cv/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://l4crito.github.io/cv/favicon.ico",
+        "https://l4crito.github.io/cv/index.html",
+        "https://l4crito.github.io/cv/main-es2015.47ece006a6dd5aab15a2.js",
+        "https://l4crito.github.io/cv/main-es5.47ece006a6dd5aab15a2.js",
+        "https://l4crito.github.io/cv/manifest.webmanifest",
+        "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js",
+        "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js",
+        "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
+        "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js",
+        "https://l4crito.github.io/cv/styles.19ccc37ed3380da032c9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://l4crito.github.io/cv/assets/1.jpg",
+        "https://l4crito.github.io/cv/assets/2.jpg",
+        "https://l4crito.github.io/cv/assets/3.jpg",
+        "https://l4crito.github.io/cv/assets/4.jpg",
+        "https://l4crito.github.io/cv/assets/5.jpg",
+        "https://l4crito.github.io/cv/assets/6.jpg",
+        "https://l4crito.github.io/cv/assets/7.jpg",
+        "https://l4crito.github.io/cv/assets/bot.jpg",
+        "https://l4crito.github.io/cv/assets/guayas.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-128x128.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-144x144.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-152x152.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-192x192.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-384x384.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-512x512.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-72x72.png",
+        "https://l4crito.github.io/cv/assets/icons/icon-96x96.png",
+        "https://l4crito.github.io/cv/assets/uta.png",
+        "https://l4crito.github.io/cv/assets/zeus.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://l4crito.github.io/cv/assets/1.jpg": "551f651a7fe7bcd93ccfc4a2976b8118b6e85204",
+    "https://l4crito.github.io/cv/assets/2.jpg": "37a4d3f475da82bc2c353eff7d4efb568103a319",
+    "https://l4crito.github.io/cv/assets/3.jpg": "4ae75f8fae732042dc544a3a5c151fafdb3b27bd",
+    "https://l4crito.github.io/cv/assets/4.jpg": "8da826cd1a9fadcc8f022880a4764a5c6a4d680d",
+    "https://l4crito.github.io/cv/assets/5.jpg": "ad9b961e718c3e3d9c8f375365a869ddec92ceb8",
+    "https://l4crito.github.io/cv/assets/6.jpg": "dee53723b188bb33af22f7a39ab70e894a05f986",
+    "https://l4crito.github.io/cv/assets/7.jpg": "72f9184dcb12e05e27dd2da3c6ecdca9de6d36e7",
+    "https://l4crito.github.io/cv/assets/bot.jpg": "c920e5c0cace243355752f7882eeb09969fe9003",
+    "https://l4crito.github.io/cv/assets/guayas.png": "5bce5f6ca980a4fdf895a6fd90b84b20ec9abf10",
+    "https://l4crito.github.io/cv/assets/icons/icon-128x128.png": "4584e45289d4c2f97de222097611b1e3c77dcf86",
+    "https://l4crito.github.io/cv/assets/icons/icon-144x144.png": "71aab5938139163d063109793c293e4cc7a3ef76",
+    "https://l4crito.github.io/cv/assets/icons/icon-152x152.png": "f2331b7d96d89a7baa2d467468e606af7c199365",
+    "https://l4crito.github.io/cv/assets/icons/icon-192x192.png": "b32a699b4fac61a997f8dd55b748e43506b8a1d4",
+    "https://l4crito.github.io/cv/assets/icons/icon-384x384.png": "070eeff51a19c94e2fe636940f2c92ef9a9ab878",
+    "https://l4crito.github.io/cv/assets/icons/icon-512x512.png": "50eb648668427fbcd88df4c2d9eb2be984ee6cc1",
+    "https://l4crito.github.io/cv/assets/icons/icon-72x72.png": "9879a96d67ddb6eb6ff0944d9c92ae15563a316a",
+    "https://l4crito.github.io/cv/assets/icons/icon-96x96.png": "6576e3bdb99cc95a90fc71771e46fb51b5ef7cf3",
+    "https://l4crito.github.io/cv/assets/uta.png": "216bc507efbca3539f18e021632ddfbe3a6a9bcb",
+    "https://l4crito.github.io/cv/assets/zeus.jpg": "01aa1ea4baec31286d32b0bebb97e39d1073a8d4",
+    "https://l4crito.github.io/cv/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://l4crito.github.io/cv/index.html": "5cfe25d6c7e4da3783164c71bd17d07a0c723036",
+    "https://l4crito.github.io/cv/main-es2015.47ece006a6dd5aab15a2.js": "0e049c52517340b38db00afbe378629b1b5c7e74",
+    "https://l4crito.github.io/cv/main-es5.47ece006a6dd5aab15a2.js": "a1999c87c32037c0eae65e1b1ab7c4062bec68af",
+    "https://l4crito.github.io/cv/manifest.webmanifest": "f9d3b5f14ab3996ec2b7e265f8af4595eb429c07",
+    "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js": "45c51483238468881240579c3fdecd19144cff17",
+    "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://l4crito.github.io/cv/styles.19ccc37ed3380da032c9.css": "8f2f3afd179183b68b3833168490886c8ed055fc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
