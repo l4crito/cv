@@ -12,4 +12,4 @@ deploy:
 	sudo cp -r dist/cv-christian/* docs/
 	git add .
 	git commit -m "$(m)"
-	git push origin master
+	git push

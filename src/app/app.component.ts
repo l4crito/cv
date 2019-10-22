@@ -10,13 +10,13 @@ export class AppComponent {
   christianPhotos: string[] = [];
   currentPhoto = 0;
   constructor(private hotkeysService: HotkeysService) {
-    this.christianPhotos.push('../assets/1.jpg');
-    this.christianPhotos.push('../assets/2.jpg');
-    this.christianPhotos.push('../assets/3.jpg');
-    this.christianPhotos.push('../assets/4.jpg');
-    this.christianPhotos.push('../assets/5.jpg');
-    this.christianPhotos.push('../assets/6.jpg');
-    this.christianPhotos.push('../assets/7.jpg');
+    this.christianPhotos.push('assets/1.jpg');
+    this.christianPhotos.push('assets/2.jpg');
+    this.christianPhotos.push('assets/3.jpg');
+    this.christianPhotos.push('assets/4.jpg');
+    this.christianPhotos.push('assets/5.jpg');
+    this.christianPhotos.push('assets/6.jpg');
+    this.christianPhotos.push('assets/7.jpg');
     this.currentPhoto = Math.floor(Math.random() * ((this.christianPhotos.length - 1) - 0 + 1));
     this.hotKeys();
 
