@@ -13,3 +13,6 @@ deploy:
 	git add .
 	git commit -m "$(m)"
 	git push
+
+serve:
+	http-server /docs
