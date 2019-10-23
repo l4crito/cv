@@ -45,8 +45,13 @@
   <section class="flex-column">
 
     <div class="description">
-      <div class="title">Aspectos rápidos</div>
+      <div class="title flex-column">Aspectos rápidos
+        <mat-icon
+          (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
+          href="cloud_download">cloud_download</mat-icon>
+      </div>
       <div class="desc">
+        <div class="divider"></div>
 
         <div class="item">
           <div class=imga>
@@ -55,9 +60,6 @@
           <div>
             <div class="high">
               UNIVERSIDAD TÉCNICA DE AMBATO
-              <mat-icon
-                (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
-                href="cloud_download">cloud_download</mat-icon>
             </div>
             <div>
               Ingeniero en Sistemas Computacionales e Informáticos
@@ -98,7 +100,7 @@
 
 
     <div class="description">
-      <div class="title">Experiencia</div>
+      <div class="title flex-column">Experiencia</div>
       <div class="desc">
         <div class="divider"></div>
         <div class="item">

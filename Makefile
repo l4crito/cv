@@ -13,6 +13,12 @@ deploy:
 	git add .
 	git commit -m "$(m)"
 	git push
+	
+build:
+	sudo ng build --prod --base-href  https://l4crito.github.io/cv/
+	sudo rm -rf docs/*
+	sudo cp -r dist/cv-christian/* docs/
+	git add .
 
 serve:
 	http-server /docs
