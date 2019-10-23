@@ -1,29 +1,11 @@
 {
   "configVersion": 1,
-  "timestamp": 1571705872996,
+  "timestamp": 1571793180376,
   "index": "https://l4crito.github.io/cv/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
-      "updateMode": "prefetch",
-      "urls": [
-        "https://l4crito.github.io/cv/favicon.ico",
-        "https://l4crito.github.io/cv/index.html",
-        "https://l4crito.github.io/cv/main-es2015.47ece006a6dd5aab15a2.js",
-        "https://l4crito.github.io/cv/main-es5.47ece006a6dd5aab15a2.js",
-        "https://l4crito.github.io/cv/manifest.webmanifest",
-        "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js",
-        "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js",
-        "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
-        "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js",
-        "https://l4crito.github.io/cv/styles.19ccc37ed3380da032c9.css"
-      ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
         "https://l4crito.github.io/cv/assets/1.jpg",
@@ -44,8 +26,24 @@
         "https://l4crito.github.io/cv/assets/icons/icon-72x72.png",
         "https://l4crito.github.io/cv/assets/icons/icon-96x96.png",
         "https://l4crito.github.io/cv/assets/uta.png",
-        "https://l4crito.github.io/cv/assets/zeus.jpg"
+        "https://l4crito.github.io/cv/assets/zeus.jpg",
+        "https://l4crito.github.io/cv/favicon.ico",
+        "https://l4crito.github.io/cv/index.html",
+        "https://l4crito.github.io/cv/main-es2015.bec161c95172bf0f1542.js",
+        "https://l4crito.github.io/cv/main-es5.bec161c95172bf0f1542.js",
+        "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js",
+        "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js",
+        "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
+        "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js",
+        "https://l4crito.github.io/cv/styles.cefd6b70b7f5bbafd2d4.css"
       ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
       "patterns": []
     }
   ],
@@ -71,15 +69,14 @@
     "https://l4crito.github.io/cv/assets/uta.png": "216bc507efbca3539f18e021632ddfbe3a6a9bcb",
     "https://l4crito.github.io/cv/assets/zeus.jpg": "01aa1ea4baec31286d32b0bebb97e39d1073a8d4",
     "https://l4crito.github.io/cv/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://l4crito.github.io/cv/index.html": "5cfe25d6c7e4da3783164c71bd17d07a0c723036",
-    "https://l4crito.github.io/cv/main-es2015.47ece006a6dd5aab15a2.js": "0e049c52517340b38db00afbe378629b1b5c7e74",
-    "https://l4crito.github.io/cv/main-es5.47ece006a6dd5aab15a2.js": "a1999c87c32037c0eae65e1b1ab7c4062bec68af",
-    "https://l4crito.github.io/cv/manifest.webmanifest": "f9d3b5f14ab3996ec2b7e265f8af4595eb429c07",
+    "https://l4crito.github.io/cv/index.html": "7061461f144672ec6a09f9973842c4aba50c5e6a",
+    "https://l4crito.github.io/cv/main-es2015.bec161c95172bf0f1542.js": "c6dca8e56195140c8cdbd28db9f87c7004ada4a6",
+    "https://l4crito.github.io/cv/main-es5.bec161c95172bf0f1542.js": "4c83b9a417c7bacda619604d573bdc4662a6ef8b",
     "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js": "45c51483238468881240579c3fdecd19144cff17",
     "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://l4crito.github.io/cv/styles.19ccc37ed3380da032c9.css": "8f2f3afd179183b68b3833168490886c8ed055fc"
+    "https://l4crito.github.io/cv/styles.cefd6b70b7f5bbafd2d4.css": "95b64a3a8fd9f0c5759357008a5e1bad1a1b9187"
   },
   "navigationUrls": [
     {

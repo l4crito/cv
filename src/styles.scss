@@ -4,5 +4,10 @@ body {
 }
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mat-snack-bar-container {
+  padding: 0px 0px !important;
+  min-height: 48px;
 }

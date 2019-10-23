@@ -1,0 +1,68 @@
+.info {
+  background-color: #2196f3;
+  color: #2196f3;
+}
+
+.success {
+  background-color: #ab47bc;
+  color: #ab47bc;
+}
+
+.warn {
+  background-color: #ff7043;
+  color: #ff7043;
+}
+
+.actualizar {
+  background-color: #ff7043;
+  color: #ff7043;
+}
+
+.error {
+  background-color: #ef5350;
+  color: #ef5350;
+}
+.until-close {
+  background-color: #ab47bc;
+  color: #ab47bc;
+  button {
+    border: solid 2x #ab47bc;
+  }
+}
+
+.noti {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 30px;
+  .message {
+    margin-left: 10px;
+    width: 275px;
+  }
+  .separator {
+    width: 3px;
+    height: 100%;
+    min-width: 3px;
+    margin-left: 10px;
+  }
+  .cancel {
+    cursor: pointer;
+    min-width: 35px;
+    color: gray;
+    margin-left: 20px;
+  }
+}
+
+.update {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+<div class="noti" *ngIf="!data.isUpdate &&!data.loading">
+    <div *ngIf="displaySeparator" class="separator info {{data.clase}}" [@separator]> </div>
+    <div *ngIf="displayInfo" [@info] class="message"> {{data.mensaje |uppercase}}</div>
+    <mat-icon (click)="this.dismiss()" *ngIf="data.closable && displayInfo" class="cancel" [@info]>cancel</mat-icon>
+</div>
+
+<div class="update" *ngIf="data.isUpdate">
+    <span>Actualización instalada</span>
+    <button mat-raised-button color="accent" (click)="reload()">Reiniciar</button>
+</div>
+<div class="update" *ngIf="data.loading">
+    <span [@separator]> {{data.mensaje |uppercase}}</span>
+    <mat-spinner diameter="20" color="warn"></mat-spinner>
+</div>

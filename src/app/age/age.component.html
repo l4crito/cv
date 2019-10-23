@@ -1,0 +1,19 @@
+<section class="bg">
+    <div class="close">
+        <button mat-icon-button (click)="closeAge.emit(null)">
+            <mat-icon class="close">close</mat-icon>
+        </button>
+    </div>
+
+    <div class="modal">
+        <section>
+            <div class="title">Fecha de nacimiento</div>
+
+            <input type="text" [(ngModel)]="currentBirthday" (keydown.enter)="this.save()">
+            <button mat-icon-button [disabled]="!isDate()" (click)="this.save()">
+                <mat-icon>save</mat-icon>
+            </button>
+        </section>
+    </div>
+
+</section>
