@@ -1,4 +1,4 @@
-mat-icon{
+mat-icon {
   font-size: 28px;
   color: rgb(97, 94, 94);
 }
@@ -85,8 +85,8 @@ mat-icon{
       color: black;
       border-radius: 50%;
       background: rgba(211, 211, 211, 0.534);
-      mat-icon{
-        color :black;
+      mat-icon {
+        color: black;
       }
     }
   }
@@ -172,7 +172,8 @@ mat-icon{
         }
       }
       .imga {
-        border: solid 2px #2196f3 ;
+        padding: 5px;
+        border: solid 2px #2196f3;
         display: flex;
         align-items: center;
         justify-content: center;

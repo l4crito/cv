@@ -71,6 +71,7 @@ export class AppComponent {
   hotKeys() {
     this.hotkeysService.add(new Hotkey('alt+e', (event: KeyboardEvent): boolean => {
       this.showChangeAge = true;
+      this.showOptions = false;
       return false;
     }));
     this.hotkeysService.add(new Hotkey('left', (event: KeyboardEvent): boolean => {
@@ -87,6 +88,7 @@ export class AppComponent {
       return false;
     }));
     this.hotkeysService.add(new Hotkey('?', (event: KeyboardEvent): boolean => {
+      this.showChangeAge = false;
       this.showOptions = true;
       return false;
     }));

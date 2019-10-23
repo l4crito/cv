@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1571793180376,
+  "timestamp": 1571793829440,
   "index": "https://l4crito.github.io/cv/index.html",
   "assetGroups": [
     {
@@ -29,8 +29,8 @@
         "https://l4crito.github.io/cv/assets/zeus.jpg",
         "https://l4crito.github.io/cv/favicon.ico",
         "https://l4crito.github.io/cv/index.html",
-        "https://l4crito.github.io/cv/main-es2015.bec161c95172bf0f1542.js",
-        "https://l4crito.github.io/cv/main-es5.bec161c95172bf0f1542.js",
+        "https://l4crito.github.io/cv/main-es2015.397e0c7d2bebc9a94a35.js",
+        "https://l4crito.github.io/cv/main-es5.397e0c7d2bebc9a94a35.js",
         "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js",
         "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js",
         "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
@@ -69,9 +69,9 @@
     "https://l4crito.github.io/cv/assets/uta.png": "216bc507efbca3539f18e021632ddfbe3a6a9bcb",
     "https://l4crito.github.io/cv/assets/zeus.jpg": "01aa1ea4baec31286d32b0bebb97e39d1073a8d4",
     "https://l4crito.github.io/cv/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://l4crito.github.io/cv/index.html": "7061461f144672ec6a09f9973842c4aba50c5e6a",
-    "https://l4crito.github.io/cv/main-es2015.bec161c95172bf0f1542.js": "c6dca8e56195140c8cdbd28db9f87c7004ada4a6",
-    "https://l4crito.github.io/cv/main-es5.bec161c95172bf0f1542.js": "4c83b9a417c7bacda619604d573bdc4662a6ef8b",
+    "https://l4crito.github.io/cv/index.html": "888573273883d3bbdc1d509e2704e394d47bd38f",
+    "https://l4crito.github.io/cv/main-es2015.397e0c7d2bebc9a94a35.js": "3358c75bd2081d7718e804c096cd19dba3712dc5",
+    "https://l4crito.github.io/cv/main-es5.397e0c7d2bebc9a94a35.js": "a688abc4aac725e707a32a8655e9cc472f175cbc",
     "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js": "45c51483238468881240579c3fdecd19144cff17",
     "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
