@@ -17,7 +17,7 @@ import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NotificationComponent } from './notification/notification.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-
+import {MatTooltipModule} from '@angular/material/tooltip'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +36,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatButtonModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     MatSnackBarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent],

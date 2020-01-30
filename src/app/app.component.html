@@ -6,14 +6,14 @@
         <img class="img" src="{{getPhoto()}}" alt="...">
       </div>
       <div class="prev-next">
-        <button mat-icon-button (click)="pevPhoto()">
+        <button mat-icon-button (click)="pevPhoto()" matTooltip="Foto anterior">
           <mat-icon>navigate_before</mat-icon>
         </button>
-        <button mat-icon-button (click)="nextPhoto()">
+        <button mat-icon-button (click)="nextPhoto()" matTooltip="Foto siguiente">
           <mat-icon>navigate_next</mat-icon>
         </button>
       </div>
-      <div class="age" (click)="this.showChangeAge=true">
+      <div class="age" (click)="this.showChangeAge=true" matTooltip="Cambia fecha de nacimiento y recalcula edad">
         {{getAge()}} años
       </div>
     </div>
@@ -46,7 +46,7 @@
 
     <div class="description">
       <div class="title flex-column">Aspectos rápidos
-        <mat-icon
+        <mat-icon matTooltip="Descargar título"
           (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
           href="cloud_download">cloud_download</mat-icon>
       </div>
@@ -220,7 +220,7 @@
 
     <div class="description">
       <div class="title flex-column">Capacitación | logros
-        <mat-icon
+        <mat-icon matTooltip="Descargar certificados"
           (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1Z7c1Axob0E8Xzov4mVKKbnqenCr6ZzNI&export=download')"
           href="cloud_download">cloud_download</mat-icon>
       </div>
