@@ -1,283 +1,79 @@
-<section class="bg">
-
-  <div class="flex">
-    <div class="photo">
-      <div>
-        <img class="img" src="{{getPhoto()}}" alt="...">
-      </div>
-      <div class="prev-next">
-        <button mat-icon-button (click)="pevPhoto()" matTooltip="Foto anterior">
-          <mat-icon>navigate_before</mat-icon>
-        </button>
-        <button mat-icon-button (click)="nextPhoto()" matTooltip="Foto siguiente">
-          <mat-icon>navigate_next</mat-icon>
-        </button>
-      </div>
-      <div class="age" (click)="this.showChangeAge=true" matTooltip="Cambia fecha de nacimiento y recalcula edad">
-        {{getAge()}} años
-      </div>
+<div class="flex">
+  <div class="photo">
+    <div>
+      <img class="img" src="{{getPhoto()}}" alt="...">
     </div>
-
-    <div class="info">
-      <div class="name">Christian Caicedo <mat-icon (click)="this.showOptions=true">help</mat-icon>
-      </div>
-      <div class="info-item">
-        <mat-icon>phone_iphone</mat-icon>
-        <span> 0958717611</span>
-      </div>
-      <div class="info-item">
-        <mat-icon>mail_outline</mat-icon>
-        <span> l4crito@gmail.com</span>
-      </div>
-      <div class="info-item">
-        <mat-icon>home</mat-icon>
-        <span> Ficoa Higos 252 y Calabazas, Ambato, Tungurahua, Ecuador</span>
-      </div>
-      <div class="info-item">
-        <mat-icon>picture_in_picture</mat-icon>
-        <span> 1804226494</span>
-      </div>
+    <div class="prev-next">
+      <button mat-icon-button (click)="pevPhoto()" matTooltip="Foto anterior">
+        <mat-icon>navigate_before</mat-icon>
+      </button>
+      <button mat-icon-button (click)="nextPhoto()" matTooltip="Foto siguiente">
+        <mat-icon>navigate_next</mat-icon>
+      </button>
+    </div>
+    <div class="age" (click)="this.showChangeAge=true" matTooltip="Cambia fecha de nacimiento y recalcula edad">
+      {{getAge()}} años
     </div>
   </div>
 
-  <br>
-  <br>
-  <section class="flex-column">
-
-    <div class="description">
-      <div class="title flex-column">Aspectos rápidos
-        <mat-icon matTooltip="Descargar título"
-          (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
-          href="cloud_download">cloud_download</mat-icon>
-      </div>
-      <div class="desc">
-        <div class="divider"></div>
-
-        <div class="item">
-          <div class=imga>
-            <img src="assets/uta.png" alt="">
-          </div>
-          <div>
-            <div class="high">
-              UNIVERSIDAD TÉCNICA DE AMBATO
-            </div>
-            <div>
-              Ingeniero en Sistemas Computacionales e Informáticos
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class=imga>
-            <img src="assets/guayas.png" alt="">
-          </div>
-          <div>
-            <div class="high">
-              INSTITUTO SUPERIOR TECNOLÓGICO DOCENTE GUAYAQUIL
-            </div>
-            <div>
-              Bachiller en electrónica de consumo
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class=imga>
-            <img src="assets/bot.jpg" alt="">
-          </div>
-          <div>
-            <div>
-              Pasión por la tecnología, electrónica y robótica
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+  <div class="info">
+    <div class="name">Christian Caicedo <mat-icon (click)="this.showOptions=true">help</mat-icon>
     </div>
-
-
-
-
-    <div class="description">
-      <div class="title flex-column">Experiencia</div>
-      <div class="desc">
-        <div class="divider"></div>
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              Alquimiasoft
-              <span>enero 2019 – actualidad</span>
-            </div>
-            <div>
-              › Análisis de datos
-            </div>
-            <div>
-              › Desarrollador back-end
-            </div>
-            <div>
-              › Desarrollador front-end
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div>
-            <div class="high">
-              Absolute Training Center
-              <span>junio 2018 – noviembre 2018</span>
-            </div>
-            <div>
-              › Mantenimiento
-            </div>
-            <div>
-              › Desarrollo del sistema informático para control de clientes, inventario , control de pagos
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              <div>Genius Store </div>
-              <span>septiembre 2017 – febrero 2018</span>
-            </div>
-            <div>
-              › Asesor comercial
-            </div>
-            <div>
-              › Desarrollo de Sistemas Informáticos
-            </div>
-            <div>
-              › Desarrollo de Sistemas Electrónicos
-            </div>
-            <div>
-              › Robótica
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="high">
-              Unidad Educativa Luis A. Martínez
-              <span>septiembre 2017 – febrero 2018</span>
-            </div>
-            <div>
-              › Creación de un prototipo que facilita el aprendizaje de lógica de programación
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div>
-            <div class="high">
-              Junta de Aguas Unión Y Progreso Sta. Rosa
-              <span> agosto 2016 – febrero 2017</span>
-            </div>
-            <div>
-              › Desarrollo de un sistema para control de pagos de agua de la comunidad </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              Universidad Técnica de Ambato (pasante ti)
-              <span> agosto 2015 – enero 2016</span>
-            </div>
-            <div>
-              › Cableado Estructurado del área de Biblioteca
-            </div>
-            <div>
-              › Mapa de redes de la facultad
-            </div>
-            <div> › Cableado estructurado “Centro de Artes UTA”</div>
-
-            <div> › Cableado Estructurado “Centro de Desarrollo Infantil UTA” </div>
-
-            <div> › Cableado Estructurado “Facultad de Contabilidad y Administración” </div>
-            <div>
-              › Mantenimiento de Ordenadores de los laboratorios 1 y 2 Creación del programa
-              para el control de pasantías de la facultad
-            </div>
-          </div>
-        </div>
-
-
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              Patto’s y Patolini calzado
-              <span> marzo 2014 – octubre 2014</span>
-            </div>
-            <div> › Diseño de bordado computarizado </div>
-            <div> › Operador de maquinaria de bordado </div>
-          </div>
-        </div>
-
-      </div>
+    <div class="info-item">
+      <mat-icon>phone_iphone</mat-icon>
+      <span> 0958717611</span>
     </div>
-
-
-    <div class="description">
-      <div class="title flex-column">Capacitación | logros
-        <mat-icon matTooltip="Descargar certificados"
-          (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1Z7c1Axob0E8Xzov4mVKKbnqenCr6ZzNI&export=download')"
-          href="cloud_download">cloud_download</mat-icon>
-      </div>
-      <div class="desc">
-        <div class="divider"></div>
-
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              MongoDB
-              <span> febrero 2019</span>
-            </div>
-            <div>
-              › Course Completion Confirmation M001: MongoDB Basics
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              MIT APP INVENTOR
-              <span> agosto 2016</span>
-            </div>
-            <div>
-              › Best design app of the month
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              Microsoft
-              <span> octubre 2013</span>
-            </div>
-            <div>
-              › MICROSOFT CERTIFIED PROFESSIONAL
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="full">
-            <div class="high">
-              Microsoft
-              <span> octubre 2013</span>
-            </div>
-            <div>
-              › DATABASE FUNDAMENTALS
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+    <div class="info-item">
+      <mat-icon>mail_outline</mat-icon>
+      <span> l4crito@gmail.com</span>
     </div>
+    <div class="info-item">
+      <mat-icon>home</mat-icon>
+      <span> Ficoa Higos 252 y Calabazas, Ambato, Tungurahua, Ecuador</span>
+    </div>
+    <div class="info-item">
+      <mat-icon>picture_in_picture</mat-icon>
+      <span> 1804226494</span>
+    </div>
+  </div>
+</div>
 
-  </section>
+<br>
+<br>
+<section class="flex-column">
 
+  <div class="description">
+    <div class="title flex-column">Aspectos rápidos
+      <mat-icon matTooltip="Descargar título"
+        (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
+        href="cloud_download">cloud_download</mat-icon>
+    </div>
+    <div class="desc">
+      <div class="divider"></div>
+      <app-activity *ngFor="let item of quickAspects" [item]="item"></app-activity>
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="title flex-column">Experiencia</div>
+    <div class="desc">
+      <div class="divider"></div>
+      <app-activity [item]="item" *ngFor="let item of experience"></app-activity>
+    </div>
+  </div>
+
+
+  <div class="description">
+    <div class="title flex-column">Capacitación | logros
+      <mat-icon matTooltip="Descargar certificados"
+        (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1Z7c1Axob0E8Xzov4mVKKbnqenCr6ZzNI&export=download')"
+        href="cloud_download">cloud_download</mat-icon>
+    </div>
+    <div class="desc">
+      <div class="divider"></div>
+      <app-activity *ngFor="let item of certifications" [item]="item"></app-activity>
+    </div>
+  </div>
 
 </section>
 

@@ -17,7 +17,8 @@ import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NotificationComponent } from './notification/notification.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import {MatTooltipModule} from '@angular/material/tooltip'; 
+import {MatTooltipModule} from '@angular/material/tooltip';
+import { ActivityComponent } from './activity/activity.component'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     OptionsComponent,
     AgeComponent,
     NotificationComponent,
+    ActivityComponent,
   ],
   imports: [
     FormsModule,

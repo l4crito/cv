@@ -1,0 +1,11 @@
+<div class="item">
+    <div class="full center">
+        <div class=imga *ngIf="item.photo">
+            <img [src]="item.photo" alt="">
+        </div>
+        <div class="full">
+            <div class="high">{{item.name}} <span>{{item.date}}</span></div>
+        <div *ngFor="let activity of item.activities">{{activity}}</div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1571806076245,
+  "timestamp": 1599015279857,
   "index": "https://l4crito.github.io/cv/index.html",
   "assetGroups": [
     {
@@ -28,13 +28,13 @@
         "https://l4crito.github.io/cv/assets/uta.png",
         "https://l4crito.github.io/cv/assets/zeus.jpg",
         "https://l4crito.github.io/cv/index.html",
-        "https://l4crito.github.io/cv/main-es2015.aaf49b05a295484ab5a5.js",
-        "https://l4crito.github.io/cv/main-es5.aaf49b05a295484ab5a5.js",
+        "https://l4crito.github.io/cv/main-es2015.cce580388741ef8cb67f.js",
+        "https://l4crito.github.io/cv/main-es5.cce580388741ef8cb67f.js",
         "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js",
-        "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js",
+        "https://l4crito.github.io/cv/polyfills-es5.931f63c2feef40f602a6.js",
         "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
         "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js",
-        "https://l4crito.github.io/cv/styles.cefd6b70b7f5bbafd2d4.css"
+        "https://l4crito.github.io/cv/styles.2af124f7d81a9ee396c6.css"
       ],
       "patterns": []
     },
@@ -70,14 +70,14 @@
     "https://l4crito.github.io/cv/assets/uta.png": "216bc507efbca3539f18e021632ddfbe3a6a9bcb",
     "https://l4crito.github.io/cv/assets/zeus.jpg": "01aa1ea4baec31286d32b0bebb97e39d1073a8d4",
     "https://l4crito.github.io/cv/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://l4crito.github.io/cv/index.html": "d2deb4d9695b3208ca886a86d686a57155c8ef85",
-    "https://l4crito.github.io/cv/main-es2015.aaf49b05a295484ab5a5.js": "620e1e1d6b3f1fbeb2a607c1abdb66d4d616158a",
-    "https://l4crito.github.io/cv/main-es5.aaf49b05a295484ab5a5.js": "81bf31ff47b0aec4348577b9acd215ad5c4e77f5",
+    "https://l4crito.github.io/cv/index.html": "60d0ac29b9b6af000d263ced59b235a19138cb72",
+    "https://l4crito.github.io/cv/main-es2015.cce580388741ef8cb67f.js": "6611911619d2528a36ce1ddc238687e1527ce460",
+    "https://l4crito.github.io/cv/main-es5.cce580388741ef8cb67f.js": "01c911e5e8e0317a168c9dc3c0f16b6acd816f23",
     "https://l4crito.github.io/cv/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
-    "https://l4crito.github.io/cv/polyfills-es5.2b9ce34c123ac007a8ba.js": "45c51483238468881240579c3fdecd19144cff17",
+    "https://l4crito.github.io/cv/polyfills-es5.931f63c2feef40f602a6.js": "45c51483238468881240579c3fdecd19144cff17",
     "https://l4crito.github.io/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://l4crito.github.io/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://l4crito.github.io/cv/styles.cefd6b70b7f5bbafd2d4.css": "95b64a3a8fd9f0c5759357008a5e1bad1a1b9187"
+    "https://l4crito.github.io/cv/styles.2af124f7d81a9ee396c6.css": "de2659d1a82d97085eec3393802d02fe08ab4b77"
   },
   "navigationUrls": [
     {
