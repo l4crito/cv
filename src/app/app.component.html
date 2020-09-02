@@ -78,7 +78,7 @@
 </section>
 
 
-<app-options [@enterAnimation] *ngIf="this.showOptions" (closeOptions)="this.showOptions=false"></app-options>
+<app-options [@enterAnimation] *ngIf="showOptions" (closeOptions)="this.showOptions=false"></app-options>
 
 <app-age [@enterAnimation] *ngIf="this.showChangeAge" (closeAge)="this.showChangeAge=false"
   (changeAge)="changeAge($event)"></app-age>

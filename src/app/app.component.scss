@@ -125,7 +125,12 @@ mat-icon {
   width: 300px;
   border-top: solid 1px #2196f3;
 }
-
+app-options,app-age {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+}
 @media all and (max-width: 800px) {
   .divider {
     margin-top: 10px;

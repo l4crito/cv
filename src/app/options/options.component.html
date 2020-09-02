@@ -1,9 +1,5 @@
 <section class="bg">
-    <div class="close">
-        <button mat-icon-button (click)="closeOptions.emit(null)">
-            <mat-icon class="close">close</mat-icon>
-        </button>
-    </div>
+    <mat-icon mat-icon-button (click)="closeOptions.emit(null)" appClose matRipple>close</mat-icon>
     <br><br>
     <br>
     <div class="hotkey">

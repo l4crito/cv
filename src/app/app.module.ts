@@ -18,7 +18,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NotificationComponent } from './notification/notification.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import { ActivityComponent } from './activity/activity.component'; 
+import { ActivityComponent } from './activity/activity.component';
+import { CloseDirective } from './directives/close.directive'; 
+import { MatRippleModule } from '@angular/material/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +29,7 @@ import { ActivityComponent } from './activity/activity.component';
     AgeComponent,
     NotificationComponent,
     ActivityComponent,
+    CloseDirective,
   ],
   imports: [
     FormsModule,
@@ -39,7 +42,8 @@ import { ActivityComponent } from './activity/activity.component';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     MatSnackBarModule,
     MatProgressSpinnerModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent],

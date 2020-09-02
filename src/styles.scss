@@ -30,8 +30,12 @@ body {
   cursor: pointer !important;
 }
 
-.center{
+.center {
   display: flex;
   align-items: center;
   justify-items: center;
+}
+
+.close {
+    font-size: 40px;
 }
