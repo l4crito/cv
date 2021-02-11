@@ -1,0 +1,98 @@
+{
+  "configVersion": 1,
+  "timestamp": 1613078275973,
+  "index": "/cv/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/cv/assets/1.jpg",
+        "/cv/assets/2.jpg",
+        "/cv/assets/3.jpg",
+        "/cv/assets/5.jpg",
+        "/cv/assets/6.jpg",
+        "/cv/assets/7.jpg",
+        "/cv/assets/bot.jpg",
+        "/cv/assets/guayas.png",
+        "/cv/assets/icons/icon-128x128.png",
+        "/cv/assets/icons/icon-144x144.png",
+        "/cv/assets/icons/icon-152x152.png",
+        "/cv/assets/icons/icon-192x192.png",
+        "/cv/assets/icons/icon-384x384.png",
+        "/cv/assets/icons/icon-512x512.png",
+        "/cv/assets/icons/icon-72x72.png",
+        "/cv/assets/icons/icon-96x96.png",
+        "/cv/assets/uta.png",
+        "/cv/assets/zeus.jpg",
+        "/cv/index.html",
+        "/cv/main-es2015.7bf1d86beed602b1466e.js",
+        "/cv/main-es5.7bf1d86beed602b1466e.js",
+        "/cv/polyfills-es2015.0ef207fb7b4761464817.js",
+        "/cv/polyfills-es5.931f63c2feef40f602a6.js",
+        "/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
+        "/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js",
+        "/cv/styles.a1e42bf6fd00859c50ac.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/cv/favicon.ico"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/cv/assets/1.jpg": "551f651a7fe7bcd93ccfc4a2976b8118b6e85204",
+    "/cv/assets/2.jpg": "37a4d3f475da82bc2c353eff7d4efb568103a319",
+    "/cv/assets/3.jpg": "4ae75f8fae732042dc544a3a5c151fafdb3b27bd",
+    "/cv/assets/5.jpg": "ad9b961e718c3e3d9c8f375365a869ddec92ceb8",
+    "/cv/assets/6.jpg": "dee53723b188bb33af22f7a39ab70e894a05f986",
+    "/cv/assets/7.jpg": "72f9184dcb12e05e27dd2da3c6ecdca9de6d36e7",
+    "/cv/assets/bot.jpg": "c920e5c0cace243355752f7882eeb09969fe9003",
+    "/cv/assets/guayas.png": "5bce5f6ca980a4fdf895a6fd90b84b20ec9abf10",
+    "/cv/assets/icons/icon-128x128.png": "c0f9f6ce5851cc780011d6516b82f4d1bcda9785",
+    "/cv/assets/icons/icon-144x144.png": "1a46ff9cf5ce615bfd911241676a0b4a843f391e",
+    "/cv/assets/icons/icon-152x152.png": "2dd0419d9a4a05e96e0afa83c469f7202ef51b9f",
+    "/cv/assets/icons/icon-192x192.png": "084fe087d1c3dc6f6b3108c58f6608e6f2889041",
+    "/cv/assets/icons/icon-384x384.png": "118b6d2644d715989ec439044d302f76bc89d47e",
+    "/cv/assets/icons/icon-512x512.png": "0f1fdafe9b16f2608d7811daec0f7c661924193e",
+    "/cv/assets/icons/icon-72x72.png": "0fbdb3f022828d0337c441f7703ebff8bc6bd993",
+    "/cv/assets/icons/icon-96x96.png": "95001203f7eda1c47098b5fd7e6f2c8d734d3830",
+    "/cv/assets/uta.png": "216bc507efbca3539f18e021632ddfbe3a6a9bcb",
+    "/cv/assets/zeus.jpg": "01aa1ea4baec31286d32b0bebb97e39d1073a8d4",
+    "/cv/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/cv/index.html": "6c8e8fd43cddf9ee30186d4acb3c33c9cabdf7f8",
+    "/cv/main-es2015.7bf1d86beed602b1466e.js": "da53ea7f83d652d9cfaa4a012493f19a5c673801",
+    "/cv/main-es5.7bf1d86beed602b1466e.js": "96a19cfae29631e60d1010c454202d5bcbf251b5",
+    "/cv/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/cv/polyfills-es5.931f63c2feef40f602a6.js": "45c51483238468881240579c3fdecd19144cff17",
+    "/cv/runtime-es2015.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/cv/runtime-es5.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/cv/styles.a1e42bf6fd00859c50ac.css": "690ae177e95b4ed41fcf0c8ea590b910e867c319"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
