@@ -1,7 +1,7 @@
 port=4200
 m=default message
 run:
-	 ng serve --watch;
+	sudo ng serve --watch --poll 2000 --hmr ;
 
 pid:
 	sudo lsof -i :$(port);
