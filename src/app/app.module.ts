@@ -21,6 +21,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import { ActivityComponent } from './activity/activity.component';
 import { CloseDirective } from './directives/close.directive'; 
 import { MatRippleModule } from '@angular/material/core';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { MatRippleModule } from '@angular/material/core';
     NotificationComponent,
     ActivityComponent,
     CloseDirective,
+    HeaderComponent,
   ],
   imports: [
     FormsModule,

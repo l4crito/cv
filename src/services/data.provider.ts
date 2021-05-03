@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class SharedDataService {
+export class DataProvider {
   birthday = '1993/01/ 21';
   data: {
     clase: string,
@@ -12,5 +12,6 @@ export class SharedDataService {
     isUpdate: boolean
     loading: boolean
   };
+  scroll = 0;
   constructor() { }
 }

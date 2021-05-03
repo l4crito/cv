@@ -1,0 +1,39 @@
+<div class="flex header" [ngClass]="{'small mat-elevation-z2': sharedData.scroll}">
+  <div class="photo">
+    <div>
+      <img class="img" src="{{getPhoto()}}" alt="...">
+    </div>
+    <div class="prev-next">
+      <button mat-icon-button (click)="pevPhoto()" matTooltip="Foto anterior">
+        <mat-icon>navigate_before</mat-icon>
+      </button>
+      <button mat-icon-button (click)="nextPhoto()" matTooltip="Foto siguiente">
+        <mat-icon>navigate_next</mat-icon>
+      </button>
+    </div>
+    <div class="age hide" (click)="this.showChangeAge=true" matTooltip="Cambia fecha de nacimiento y recalcula edad">
+      {{getAge()}} años
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="name">Christian Caicedo <mat-icon (click)="this.showOptions=true">help</mat-icon>
+    </div>
+    <div class="info-item hide">
+      <mat-icon>phone_iphone</mat-icon>
+      <span> 0958717611</span>
+    </div>
+    <div class="info-item hide">
+      <mat-icon>mail_outline</mat-icon>
+      <span> l4crito@gmail.com</span>
+    </div>
+    <div class="info-item hide">
+      <mat-icon>home</mat-icon>
+      <span> Ficoa Higos 252 y Calabazas, Ambato, Tungurahua, Ecuador</span>
+    </div>
+    <div class="info-item hide">
+      <mat-icon>picture_in_picture</mat-icon>
+      <span> 1804226494</span>
+    </div>
+  </div>
+</div>

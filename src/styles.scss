@@ -37,6 +37,22 @@ body {
 }
 
 .close {
-    font-size: 40px;
+  font-size: 40px;
 }
 
+.flex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: #0000; /* transparent with short hex with alpha */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

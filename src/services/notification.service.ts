@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { SharedDataService } from './shared-data.service';
+import { DataProvider } from './data.provider';
 import { NotificationComponent } from '../app/notification/notification.component';
 
 @Injectable({
@@ -10,7 +10,7 @@ export class NotificationService {
 
   constructor(
     private snackBar: MatSnackBar,
-    private sharedData: SharedDataService,
+    private sharedData: DataProvider,
   ) { }
 
   showInfo(message: string) {

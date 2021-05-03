@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
-import { SharedDataService } from '../../services/shared-data.service';
+import { DataProvider } from '../../services/data.provider';
 
 @Component({
   animations: [
@@ -44,7 +44,7 @@ export class NotificationComponent implements OnInit, AfterViewInit {
     isUpdate: boolean
     loading: boolean
   };
-  constructor(private sharedData: SharedDataService) {
+  constructor(private sharedData: DataProvider) {
     this.data = sharedData.data;
   }
 

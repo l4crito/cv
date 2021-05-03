@@ -1,84 +1,47 @@
-<div class="flex">
-  <div class="photo">
-    <div>
-      <img class="img" src="{{getPhoto()}}" alt="...">
-    </div>
-    <div class="prev-next">
-      <button mat-icon-button (click)="pevPhoto()" matTooltip="Foto anterior">
-        <mat-icon>navigate_before</mat-icon>
-      </button>
-      <button mat-icon-button (click)="nextPhoto()" matTooltip="Foto siguiente">
-        <mat-icon>navigate_next</mat-icon>
-      </button>
-    </div>
-    <div class="age" (click)="this.showChangeAge=true" matTooltip="Cambia fecha de nacimiento y recalcula edad">
-      {{getAge()}} años
-    </div>
-  </div>
+<div class="bg" (scroll)="onScroll($event)">
+  <app-header></app-header>
+  <br>
+  <br>
+  <section class="flex-column">
 
-  <div class="info">
-    <div class="name">Christian Caicedo <mat-icon (click)="this.showOptions=true">help</mat-icon>
+    <div class="description">
+      <div class="title flex-column">Aspectos rápidos
+        <mat-icon matTooltip="Descargar título"
+          (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
+          href="cloud_download">cloud_download</mat-icon>
+      </div>
+      <div class="desc">
+        <div class="divider"></div>
+        <app-activity *ngFor="let item of quickAspects" [item]="item"></app-activity>
+      </div>
     </div>
-    <div class="info-item">
-      <mat-icon>phone_iphone</mat-icon>
-      <span> 0958717611</span>
+
+    <div class="description">
+      <div class="title flex-column">Experiencia</div>
+      <div class="desc">
+        <div class="divider"></div>
+        <app-activity [item]="item" *ngFor="let item of experience"></app-activity>
+      </div>
     </div>
-    <div class="info-item">
-      <mat-icon>mail_outline</mat-icon>
-      <span> l4crito@gmail.com</span>
+
+
+    <div class="description">
+      <div class="title flex-column">Capacitación | logros
+        <mat-icon matTooltip="Descargar certificados"
+          (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1Z7c1Axob0E8Xzov4mVKKbnqenCr6ZzNI&export=download')"
+          href="cloud_download">cloud_download</mat-icon>
+      </div>
+      <div class="desc">
+        <div class="divider"></div>
+        <app-activity *ngFor="let item of certifications" [item]="item"></app-activity>
+      </div>
     </div>
-    <div class="info-item">
-      <mat-icon>home</mat-icon>
-      <span> Ficoa Higos 252 y Calabazas, Ambato, Tungurahua, Ecuador</span>
-    </div>
-    <div class="info-item">
-      <mat-icon>picture_in_picture</mat-icon>
-      <span> 1804226494</span>
-    </div>
-  </div>
+
+  </section>
+
+
+  <app-options [@enterAnimation] *ngIf="showOptions" (closeOptions)="this.showOptions=false"></app-options>
+
+  <app-age [@enterAnimation] *ngIf="this.showChangeAge" (closeAge)="this.showChangeAge=false"
+    (changeAge)="changeAge($event)"></app-age>
 </div>
-
-<br>
-<br>
-<section class="flex-column">
-
-  <div class="description">
-    <div class="title flex-column">Aspectos rápidos
-      <mat-icon matTooltip="Descargar título"
-        (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1nLpWAk60G_JBH4bfII3bOh286igiN7Qv&export=download')"
-        href="cloud_download">cloud_download</mat-icon>
-    </div>
-    <div class="desc">
-      <div class="divider"></div>
-      <app-activity *ngFor="let item of quickAspects" [item]="item"></app-activity>
-    </div>
-  </div>
-
-  <div class="description">
-    <div class="title flex-column">Experiencia</div>
-    <div class="desc">
-      <div class="divider"></div>
-      <app-activity [item]="item" *ngFor="let item of experience"></app-activity>
-    </div>
-  </div>
-
-
-  <div class="description">
-    <div class="title flex-column">Capacitación | logros
-      <mat-icon matTooltip="Descargar certificados"
-        (click)="goToLink('https://drive.google.com/uc?authuser=0&id=1Z7c1Axob0E8Xzov4mVKKbnqenCr6ZzNI&export=download')"
-        href="cloud_download">cloud_download</mat-icon>
-    </div>
-    <div class="desc">
-      <div class="divider"></div>
-      <app-activity *ngFor="let item of certifications" [item]="item"></app-activity>
-    </div>
-  </div>
-
-</section>
-
-
-<app-options [@enterAnimation] *ngIf="showOptions" (closeOptions)="this.showOptions=false"></app-options>
-
-<app-age [@enterAnimation] *ngIf="this.showChangeAge" (closeAge)="this.showChangeAge=false"
-  (changeAge)="changeAge($event)"></app-age>

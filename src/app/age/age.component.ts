@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, Output, EventEmitter } from '@angular/core';
-import { SharedDataService } from '../../services/shared-data.service';
+import { DataProvider } from '../../services/data.provider';
 import { NotificationService } from '../../services/notification.service';
 
 @Component({
@@ -12,7 +12,7 @@ export class AgeComponent implements OnInit, AfterViewInit {
   @Output() closeAge: EventEmitter<any> = new EventEmitter<any>();
   @Output() changeAge: EventEmitter<string> = new EventEmitter<string>();
   currentBirthday: string;
-  constructor(private sharedData: SharedDataService, private notificationService: NotificationService) {
+  constructor(private sharedData: DataProvider, private notificationService: NotificationService) {
     this.currentBirthday = JSON.parse(JSON.stringify(this.sharedData.birthday));
 
   }
